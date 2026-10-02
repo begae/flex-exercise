@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+      }
+      .sports-category {
+        width: 80%;
+        margin: 50px auto;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .sports-names {
+        width: 480px;
+        display: flex;
+        justify-content: center;
+        border-radius: 50px;
+        overflow: hidden;
+        background-color: #ccc;
+        margin-bottom: 20px;
+      }
+      .sports-name {
+        width: 120px;
+        height: 40px;
+        border: none;
+        font-weight: bold;
+      }
+      .teams {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+      }
+      .team-item {
+        width: 80px;
+        text-align: center;
+      }
+      .team-item img {
+        width: 100%;
+      }
+      .team-item p {
+        font-size: 13px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="sports-category">
+      <div class="sports-names">
+        <button class="sports-name">축구</button>
+        <button class="sports-name">야구</button>
+        <button class="sports-name">E스포츠</button>
+        <button class="sports-name">스페셜</button>
+      </div>
+      <div class="teams">
+        <div class="team-item">
+          <div class="team-item-img">
+            <img src="images/gangwon.png" alt="강원FC" />
+          </div>
+          <p>강원FC</p>
+        </div>
+        <div class="team-item">
+          <div class="team-item-img">
+            <img src="images/bucheon.png" alt="부천FC1995" />
+          </div>
+          <p>부천FC1995</p>
+        </div>
+        <div class="team-item">
+          <div class="team-item-img">
+            <img src="images/suwonfc.png" alt="수원FC" />
+          </div>
+          <p>수원FC</p>
+        </div>
+        <div class="team-item">
+          <div class="team-item-img">
+            <img src="images/suwonsamsung.png" alt="수원삼성" />
+          </div>
+          <p>수원삼성</p>
+        </div>
+        <div class="team-item">
+          <div class="team-item-img">
+            <img src="images/seongnamfc.png" alt="성남FC" />
+          </div>
+          <p>성남FC</p>
+        </div>
+        <div class="team-item">
+          <div class="team-item-img">
+            <img src="images/jeonnam.png" alt="전남드래곤즈" />
+          </div>
+          <p>전남드래곤즈</p>
+        </div>
+        <div class="team-item">
+          <div class="team-item-img">
+            <img src="images/busan.png" alt="부산아이파크" />
+          </div>
+          <p>부산아이파크</p>
+        </div>
+        <div class="team-item">
+          <div class="team-item-img">
+            <img src="images/chungnam.png" alt="충남아산" />
+          </div>
+          <p>충남아산</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
